@@ -1140,6 +1140,10 @@ export const SIDEBAR: Partial<Record<Sections, SectionEntry[]>> = {
           title: "Overview",
           url: "chainlink-local",
         },
+        {
+          title: "Architecture",
+          url: "chainlink-local/architecture",
+        },
       ],
     },
     { ...chainlinkLocalAPIReferenceTyped },
