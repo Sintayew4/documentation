@@ -1146,6 +1146,15 @@ export const SIDEBAR: Partial<Record<Sections, SectionEntry[]>> = {
         },
       ],
     },
+    {
+      section: "Build",
+      contents: [
+        {
+          title: "Architecture",
+          url: "chainlink-local/build/local-simulator",
+        },
+      ],
+    },
     { ...chainlinkLocalAPIReferenceTyped },
   ],
   nodeOperator: [
