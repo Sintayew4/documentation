@@ -13,21 +13,21 @@ This documentation is open source. If you want to contribute tutorials or improv
 > Chainlink Foundation, nor Chainlink node operators are responsible for unintended outputs that are generated due to
 > errors in code.
 
-## Developing
-
+**## Developing
+**
 To run a local development environment, use the following command:
 
 ```
 npm install && npm run dev
 ```
 
-## Docs architecture
-
+**## Docs architecture
+**
 - All docs are markdown and stored in `/src/content`.
 - Navigation is JSON in `/src/config/sidebar.ts`
 
-## Deploy Preview
-
+**## Deploy Preview
+**
 This repo is configured to automatically create a preview environment on Vercel when a PR is opened. After the deployment is approved, the Vercel bot will leave a comment with a link to the preview on your PR.
 
 ## Deploying to Production
